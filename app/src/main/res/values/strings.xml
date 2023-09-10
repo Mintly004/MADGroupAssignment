@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">languageApp</string>
+    <string name="SUPABASE_KEY">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh2cWtwa2F0cXZkdm1oZnd2dXVtIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM3MDE4OTcsImV4cCI6MjAwOTI3Nzg5N30.DPMv8HN4coHyXPr_ASlkpxwjyU-JltPlUFCrkImQWx4</string>
+    <string name="X_RapidAPI_Key">436c3d7c87msh09179e60dd67b2ap19221djsn09f49374d2ac</string>
+    <string name="X_RapidAPI_Host">kanjialive-api.p.rapidapi.com</string>
+</resources>

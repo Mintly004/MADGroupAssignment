@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/signupTitle"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="50dp"
+        app:fontFamily="@font/fredoka_one"/>
+
+    <EditText
+        android:id="@+id/signupUsername"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  Full Name"
+        android:background="@color/grey"
+        android:textSize="18dp"
+        app:fontFamily="@font/fredoka_one"
+        android:alpha="0.5"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/signupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        android:background="@color/grey"
+        android:textSize="18dp"
+        app:fontFamily="@font/fredoka_one"
+        android:alpha="0.5"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/signupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:background="@color/grey"
+        android:textSize="18dp"
+        android:alpha="0.5"
+        app:fontFamily="@font/fredoka_one"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="16dp"
+        android:background="@color/cyan"
+        android:textSize="18dp"
+        app:fontFamily="@font/fredoka_one" />
+
+</LinearLayout>
